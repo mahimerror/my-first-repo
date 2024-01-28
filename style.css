@@ -1,0 +1,137 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    max-width: 1200px;
+    margin: 0% auto;
+}
+
+.globalPadding{
+    padding: 0% 70px;
+}
+
+#logo{
+    color: green;
+}
+
+#ulc{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 30px 0px; */
+}
+
+#ulc a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#ulc a:hover{
+    color: brown;
+}
+
+#banner{
+    display: flex;
+    margin-top: 50px;
+}
+
+#banner-image img{
+    height: 200px;
+}
+
+#banner-title{
+    width: 50%;
+}
+
+#banner-image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#b-title{
+    font-size: 30px;
+}
+
+#b-para{
+    font-size: 16px;
+    color: grey;
+}
+
+.resume-btn{
+    padding: 12px 25px;
+    background-color: #FF6464; 
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* main start */
+
+#main-id{
+    margin-top: 40px;
+    background: #EDF7FA;
+}
+
+#main{
+    padding-bottom: 25px;
+}
+
+.main-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-container{
+    display: flex;
+    gap: 20px;
+}
+ 
+.post-one{
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+.post-two{
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.featured{
+    margin-top: 30px;
+}
+.work-1{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+footer{
+    text-align: center;
+    margin: 70px 0px 40px 0px;
+}
+
+
+.ft{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.ft img{
+    height: 30px;
+}
+
+.txt{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
